@@ -1,0 +1,46 @@
+body {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.colour-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.colour-container p {
+  margin: 0;
+}
+
+.btn {
+  padding: 7px 16px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.1s ease-in-out;
+  letter-spacing: 2px;
+}
+
+.btn:active {
+    transform: translateY(2px) translateX(2px); 
+  }

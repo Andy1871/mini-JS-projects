@@ -1,0 +1,203 @@
+body {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(241, 250, 255);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.heading {
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 3px;
+  background-color: rgb(75, 155, 216);
+  border-radius: 2px;
+}
+
+.img-section {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin: 15px;
+}
+
+.head-bg {
+  position: absolute;
+  bottom: 1px;
+  left: 3px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(75, 155, 216, 0.25);
+  z-index: 1;
+}
+
+.head-shot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+
+.quote-mark {
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: rgb(75, 155, 216);
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.review-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  width: 65%;
+  padding: 1rem;
+}
+
+.name {
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  margin: 2px 0;
+}
+
+.job {
+  text-transform: uppercase;
+  color: rgb(75, 155, 216);
+  margin-top: 2px;
+  font-size: 0.75rem;
+}
+
+.review-text {
+  margin: 4px 0 10px 0;
+  font-size: 0.9rem;
+}
+
+.arrows {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: rgb(75, 155, 216);
+  padding: 10px;
+}
+
+.left-btn:active {
+  transform: translate(-1px, 1px);
+}
+
+.right-btn:active {
+  transform: translate(1px, 1px);
+}
+
+.random-btn {
+  all: unset;
+  border: 1px solid rgb(75, 155, 216);
+  border-radius: 5px;
+  background-color: rgba(75, 155, 216, 0.1);
+  font-size: 0.75rem;
+  padding: 1px 6px 3px 6px;
+  cursor: pointer;
+  color: rgb(75, 155, 216);
+}
+
+.random-btn:active {
+  transform: translate(1px, 1px);
+}
+
+.review-form {
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.review-form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.review-form label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.review-form input,
+.review-form textarea {
+  font-size: 0.9rem;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.review-form input:focus,
+.review-form textarea:focus {
+  border-color: rgb(75, 155, 216);
+  box-shadow: 0 0 0 2px rgba(75, 155, 216, 0.2);
+}
+
+.review-form button {
+  background-color: rgb(75, 155, 216);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.review-form button:hover {
+  background-color: rgb(60, 135, 195);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review Creator - With Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Our Reviews</h1>
+      </div>
+
+      <div class="review-container">
+        <div class="img-section">
+          <div class="quote-mark">"</div>
+          <div class="head-shot"></div>
+          <div class="head-bg"></div>
+        </div>
+
+        <div class="text-container">
+          <p class="name"></p>
+          <p class="job"></p>
+          <p class="review-text"></p>
+        </div>
+
+        <div class="buttons-container">
+          <div class="left-right-container">
+            <button class="arrows left-btn">&#10094;</button>
+            <button class="arrows right-btn">&#10095;</button>
+          </div>
+
+          <button class="random-btn">Random</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- CMS simulation - not real page layout -->
+    <form class="review-form">
+        <h2>Add New Review</h2>
+        
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter name" required>
+
+        <label for="job">Job:</label>
+        <input type="text" id="job" name="job" placeholder="Enter job title" required>
+
+        <label for="review">Review:</label>
+        <input type="text" id="review" name="review" placeholder="Enter review text" required>
+
+        <button type="submit">Add Review</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
