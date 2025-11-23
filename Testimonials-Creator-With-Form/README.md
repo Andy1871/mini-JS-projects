@@ -82,4 +82,4 @@ Users can cycle through existing testimonials, show a random review, and add new
    ```bash
    cd testimonials-creator-with-form
 
-2. Open “index.html” in your browser
+2. Open `index.html` in your browser
