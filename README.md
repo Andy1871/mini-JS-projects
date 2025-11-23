@@ -6,15 +6,15 @@ A collection of small JavaScript practice projects.
 
 1. **colour-picker**
    - Simple colour picker that updates the UI based on user selection.
-   - [View project README](./colour-picker/README.md)
+   - [View project README](./Colour-Picker/README.md)
 
 2. **open-close-sidebar**
    - Toggleable sidebar with open/close animation.
-   - [View project README](./open-close-sidebar/README.md)
+   - [View project README](./Open-close-sidebar/README.md)
 
 3. **testimonials-creator-with-form**
    - Scrollable testimonials with form to add and display new testimonials.
-   - [View project README](./testimonials-creator-with-form/README.md)
+   - [View project README](./Testimonials-Creator-With-Form/README.md)
 
 ## Getting Started
 
