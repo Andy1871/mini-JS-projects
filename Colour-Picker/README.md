@@ -30,3 +30,12 @@ Click the button to update the background colour and the displayed hex value in 
 - **HTML** – basic structure (`container`, label, button).
 - **CSS** – centering, typography, button styling, small interaction animation.
 - **JavaScript** – random hex generation and DOM updates
+
+## Running the project
+
+1. Navigate into the project folder:
+
+   ```bash
+   cd testimonials-creator-with-form
+
+2. Open `index.html` in your browser
