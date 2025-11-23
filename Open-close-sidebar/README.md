@@ -62,3 +62,13 @@ The sidebar smoothly expands/collapses, highlights the active link, and supports
 
 ---
 
+## Running the project
+
+1. Navigate into the project folder:
+
+   ```bash
+   cd testimonials-creator-with-form
+
+2. Open `index.html` in your browser
+
+
